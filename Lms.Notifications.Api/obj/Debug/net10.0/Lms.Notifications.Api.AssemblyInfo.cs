@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lms.Notifications.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e14858309a2adfad1f752ae92358e4e10d717891")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b402c0f194c83ae1e6e5bdc45e19734042e6ab29")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lms.Notifications.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lms.Notifications.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
