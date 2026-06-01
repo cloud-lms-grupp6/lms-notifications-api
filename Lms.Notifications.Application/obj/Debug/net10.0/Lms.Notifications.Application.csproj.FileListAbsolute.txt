@@ -1,0 +1,15 @@
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\bin\Debug\net10.0\Lms.Notifications.Application.deps.json
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\bin\Debug\net10.0\Lms.Notifications.Application.dll
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\bin\Debug\net10.0\Lms.Notifications.Application.pdb
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Notifications.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Notifications.Application.AssemblyInfoInputs.cache
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Notifications.Application.AssemblyInfo.cs
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Notifications.Application.csproj.CoreCompileInputs.cache
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Notifications.Application.dll
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\refint\Lms.Notifications.Application.dll
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Notifications.Application.pdb
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\ref\Lms.Notifications.Application.dll
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\bin\Debug\net10.0\Lms.Notifications.Domain.dll
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\bin\Debug\net10.0\Lms.Notifications.Domain.pdb
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Notifications.Application.csproj.AssemblyReference.cache
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Noti.5D887978.Up2Date

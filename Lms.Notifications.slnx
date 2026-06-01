@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Lms.Notifications.Api/Lms.Notifications.Api.csproj" />
+  <Project Path="Lms.Notifications.Application/Lms.Notifications.Application.csproj" />
+  <Project Path="Lms.Notifications.Domain/Lms.Notifications.Domain.csproj" />
+  <Project Path="Lms.Notifications.Infrastructure/Lms.Notifications.Infrastructure.csproj" />
+  <Project Path="Lms.Notifications.Tests/Lms.Notifications.Tests.csproj" />
+</Solution>
