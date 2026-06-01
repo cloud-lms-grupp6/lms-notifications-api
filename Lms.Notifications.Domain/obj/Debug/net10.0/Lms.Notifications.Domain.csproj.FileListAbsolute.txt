@@ -9,3 +9,4 @@ C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Domain\obj\Debug\net10.
 C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Domain\obj\Debug\net10.0\refint\Lms.Notifications.Domain.dll
 C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Domain\obj\Debug\net10.0\Lms.Notifications.Domain.pdb
 C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Domain\obj\Debug\net10.0\ref\Lms.Notifications.Domain.dll
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Domain\obj\Debug\net10.0\Lms.Notifications.Domain.sourcelink.json

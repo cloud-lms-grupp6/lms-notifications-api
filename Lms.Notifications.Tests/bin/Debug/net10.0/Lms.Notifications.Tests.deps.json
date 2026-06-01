@@ -11,6 +11,7 @@
           "Lms.Notifications.Application": "1.0.0",
           "Lms.Notifications.Domain": "1.0.0",
           "Lms.Notifications.Infrastructure": "1.0.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "10.0.8",
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "xunit": "2.9.3"
         },
@@ -178,6 +179,19 @@
       "Microsoft.EntityFrameworkCore.Abstractions/10.0.8": {
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/10.0.8": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.8",
+          "Microsoft.Extensions.Caching.Memory": "10.0.8",
+          "Microsoft.Extensions.Logging": "10.0.8"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
             "assemblyVersion": "10.0.8.0",
             "fileVersion": "10.0.826.23019"
           }
@@ -907,6 +921,13 @@
       "sha512": "sha512-jbKDXWPZQhuPHygMnwzNOqxBADVcpRVytcKYZsA++QqhPkpF93Ta8o5mbJQGrARSjlkr9WtOaADV97EDMOZ7DA==",
       "path": "microsoft.entityframeworkcore.abstractions/10.0.8",
       "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.8.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/10.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C3T9khx1oiLPrS6ehoSnZptiEuTOIaX60it9SGvCkWTeF5i6+IceK6p7mtx+mkFwWB5qx+v3IhgG51iUEtLq9w==",
+      "path": "microsoft.entityframeworkcore.inmemory/10.0.8",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.10.0.8.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/10.0.8": {
       "type": "package",

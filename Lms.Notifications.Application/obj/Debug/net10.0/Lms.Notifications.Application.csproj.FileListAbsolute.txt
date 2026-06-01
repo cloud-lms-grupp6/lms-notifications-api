@@ -13,3 +13,4 @@ C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\bin\Debug\n
 C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\bin\Debug\net10.0\Lms.Notifications.Domain.pdb
 C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Notifications.Application.csproj.AssemblyReference.cache
 C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Noti.5D887978.Up2Date
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Application\obj\Debug\net10.0\Lms.Notifications.Application.sourcelink.json

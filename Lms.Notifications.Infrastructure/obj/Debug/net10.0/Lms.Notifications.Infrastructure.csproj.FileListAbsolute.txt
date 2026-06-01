@@ -17,3 +17,4 @@ C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Infrastructure\obj\Debu
 C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Infrastructure\obj\Debug\net10.0\Lms.Noti.310B1CA3.Up2Date
 C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Infrastructure\bin\Debug\net10.0\Lms.Notifications.Infrastructure.runtimeconfig.json
 C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Infrastructure\obj\Debug\net10.0\Lms.Notifications.Infrastructure.genruntimeconfig.cache
+C:\Users\Boromir\lms-notifications-api\Lms.Notifications.Infrastructure\obj\Debug\net10.0\Lms.Notifications.Infrastructure.sourcelink.json
