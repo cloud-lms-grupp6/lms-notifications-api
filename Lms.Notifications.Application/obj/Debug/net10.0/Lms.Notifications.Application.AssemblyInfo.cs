@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lms.Notifications.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e14858309a2adfad1f752ae92358e4e10d717891")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d5fb4186454d6cddc35178929f0d871b04711fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lms.Notifications.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lms.Notifications.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

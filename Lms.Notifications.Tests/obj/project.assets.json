@@ -2673,11 +2673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Boromir\\lms-notifications-api\\Lms.Notifications.Tests\\Lms.Notifications.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Boromir\\lms-Notifications-api\\Lms.Notifications.Tests\\Lms.Notifications.Tests.csproj",
       "projectName": "Lms.Notifications.Tests",
-      "projectPath": "C:\\Users\\Boromir\\lms-notifications-api\\Lms.Notifications.Tests\\Lms.Notifications.Tests.csproj",
+      "projectPath": "C:\\Users\\Boromir\\lms-Notifications-api\\Lms.Notifications.Tests\\Lms.Notifications.Tests.csproj",
       "packagesPath": "C:\\Users\\Boromir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Boromir\\lms-notifications-api\\Lms.Notifications.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Boromir\\lms-Notifications-api\\Lms.Notifications.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2699,14 +2699,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Boromir\\lms-notifications-api\\Lms.Notifications.Application\\Lms.Notifications.Application.csproj": {
-              "projectPath": "C:\\Users\\Boromir\\lms-notifications-api\\Lms.Notifications.Application\\Lms.Notifications.Application.csproj"
+            "C:\\Users\\Boromir\\lms-Notifications-api\\Lms.Notifications.Application\\Lms.Notifications.Application.csproj": {
+              "projectPath": "C:\\Users\\Boromir\\lms-Notifications-api\\Lms.Notifications.Application\\Lms.Notifications.Application.csproj"
             },
-            "C:\\Users\\Boromir\\lms-notifications-api\\Lms.Notifications.Domain\\Lms.Notifications.Domain.csproj": {
-              "projectPath": "C:\\Users\\Boromir\\lms-notifications-api\\Lms.Notifications.Domain\\Lms.Notifications.Domain.csproj"
+            "C:\\Users\\Boromir\\lms-Notifications-api\\Lms.Notifications.Domain\\Lms.Notifications.Domain.csproj": {
+              "projectPath": "C:\\Users\\Boromir\\lms-Notifications-api\\Lms.Notifications.Domain\\Lms.Notifications.Domain.csproj"
             },
-            "C:\\Users\\Boromir\\lms-notifications-api\\Lms.Notifications.Infrastructure\\Lms.Notifications.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Boromir\\lms-notifications-api\\Lms.Notifications.Infrastructure\\Lms.Notifications.Infrastructure.csproj"
+            "C:\\Users\\Boromir\\lms-Notifications-api\\Lms.Notifications.Infrastructure\\Lms.Notifications.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Boromir\\lms-Notifications-api\\Lms.Notifications.Infrastructure\\Lms.Notifications.Infrastructure.csproj"
             }
           }
         }

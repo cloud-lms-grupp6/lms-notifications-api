@@ -4,6 +4,13 @@ using Lms.Notifications.Domain.Entities;
 using Lms.Notifications.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
+// NotificationService innehåller affärslogiken för notifikationer.
+// Här hanteras skapande, hämtning, uppdatering och borttagning av notiser.
+//
+// AI användes som stöd för att strukturera service-lagret och EF Core-frågor.
+// Implementationen anpassades därefter manuellt efter projektets DTO:er,
+// databasmodell och LMS-projektets krav.
+
 namespace Lms.Notifications.Infrastructure.Services;
 
 public class NotificationService : INotificationService
@@ -15,6 +22,7 @@ public class NotificationService : INotificationService
         _context = context;
     }
 
+    // Hämtar samtliga notifikationer från databasen.
     public async Task<IEnumerable<NotificationResponse>> GetAllAsync()
     {
         return await _context.Notifications
@@ -30,6 +38,7 @@ public class NotificationService : INotificationService
             .ToListAsync();
     }
 
+    // Hämtar en specifik notifikation baserat på dess ID.
     public async Task<NotificationResponse?> GetByIdAsync(Guid id)
     {
         return await _context.Notifications
@@ -46,6 +55,7 @@ public class NotificationService : INotificationService
             .FirstOrDefaultAsync();
     }
 
+    // Skapar en ny notifikation och sparar den i databasen.
     public async Task<NotificationResponse> CreateAsync(CreateNotificationRequest request)
     {
         var notification = new Notification
@@ -58,6 +68,7 @@ public class NotificationService : INotificationService
         _context.Notifications.Add(notification);
         await _context.SaveChangesAsync();
 
+        // Returnerar den skapade notifikationen som DTO.
         return new NotificationResponse
         {
             Id = notification.Id,
@@ -69,6 +80,7 @@ public class NotificationService : INotificationService
         };
     }
 
+    // Uppdaterar status på en notifikation, exempelvis om den har lästs.
     public async Task<bool> UpdateAsync(Guid id, UpdateNotificationRequest request)
     {
         var notification = await _context.Notifications.FindAsync(id);
@@ -83,6 +95,7 @@ public class NotificationService : INotificationService
         return true;
     }
 
+    // Tar bort en notifikation från databasen.
     public async Task<bool> DeleteAsync(Guid id)
     {
         var notification = await _context.Notifications.FindAsync(id);

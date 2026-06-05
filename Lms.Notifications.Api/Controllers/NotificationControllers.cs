@@ -2,6 +2,13 @@ using Lms.Notifications.Application.DTOs;
 using Lms.Notifications.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
+// NotificationsController exponerar API-endpoints för notifikationer.
+// Frontend använder dessa endpoints för att skapa, hämta, uppdatera
+// och ta bort notiser.
+//
+// AI användes som stöd för strukturering av controller-lagret.
+// Implementationen anpassades därefter manuellt efter projektets krav.
+
 namespace Lms.Notifications.Api.Controllers;
 
 [ApiController]
@@ -15,6 +22,7 @@ public class NotificationsController : ControllerBase
         _notificationService = notificationService;
     }
 
+    // Hämtar samtliga notifikationer från systemet.
     [HttpGet]
     public async Task<ActionResult<IEnumerable<NotificationResponse>>> GetAll()
     {
@@ -22,6 +30,7 @@ public class NotificationsController : ControllerBase
         return Ok(notifications);
     }
 
+    // Hämtar en specifik notifikation baserat på dess ID.
     [HttpGet("{id:guid}")]
     public async Task<ActionResult<NotificationResponse>> GetById(Guid id)
     {
@@ -33,14 +42,20 @@ public class NotificationsController : ControllerBase
         return Ok(notification);
     }
 
+    // Skapar en ny notifikation i databasen.
     [HttpPost]
     public async Task<ActionResult<NotificationResponse>> Create(CreateNotificationRequest request)
     {
         var notification = await _notificationService.CreateAsync(request);
 
-        return CreatedAtAction(nameof(GetById), new { id = notification.Id }, notification);
+        return CreatedAtAction(
+            nameof(GetById),
+            new { id = notification.Id },
+            notification);
     }
 
+    // Uppdaterar en befintlig notifikation.
+    // Används exempelvis för att markera en notis som läst.
     [HttpPut("{id:guid}")]
     public async Task<IActionResult> Update(Guid id, UpdateNotificationRequest request)
     {
@@ -52,6 +67,7 @@ public class NotificationsController : ControllerBase
         return NoContent();
     }
 
+    // Tar bort en notifikation från databasen.
     [HttpDelete("{id:guid}")]
     public async Task<IActionResult> Delete(Guid id)
     {
